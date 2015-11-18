@@ -107,7 +107,6 @@
     }
 }
 
-<<<<<<< Updated upstream
 a:link {
     text-decoration: none;
     color: black;
@@ -124,8 +123,7 @@ a:hover {
 
 a:active {
     text-decoration: none;
-=======
-
+}
 /*CSS Väiksemale resole kui 1100*/
 @media screen and (max-width: 1100px) {
     body {
@@ -140,5 +138,4 @@ a:active {
         width: 30px;
     }
 
->>>>>>> Stashed changes
 }
