@@ -8,6 +8,7 @@
 </head>
 <body>
 
+
 <div class="banner">
     <h1><a href="index.php">Watches.ee</a></h1>
 
@@ -16,14 +17,14 @@
 
 <div class="navbar">
     <ul class="navbar">
-        <li><a href="?">Pealeht</a></li>
-        <li><a href="?page=link2">Link2</a></li>
-        <li><a href="?page=link3">Link3</a></li>
-        <li><a href="?page=link4">Link4</a></li>
+        <li class="pealeht"><a href="?">Pealeht</a></li>
+        <li class="pealeht"><a href="?page=link2">Link2</a></li>
+        <li class="pealeht"><a href="?page=link3">Link3</a></li>
+        <li class="pealeht"><a href="?page=link4">Link4</a></li>
     </ul>
 </div>
 
-<? if (file_exists("views/$page.php")) require "views/$page.php"; else require "views/error.php" ?>
+<?php if (file_exists("views/$page.php")) require "views/$page.php"; else require "views/error.php" ?>
 
 </body>
 <footer>

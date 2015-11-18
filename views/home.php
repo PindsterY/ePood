@@ -4,14 +4,14 @@
     <table border="0" style="width:100%; ;">
         <tr>
             <th>Pilt</th>
-            <th></th>
+            <th>Nimi</th>
             <th>Hind</th>
             <th>Lisainfo</th>
         </tr>
         <tr>
             <td>Img.jpg.png</td>
             <td>Fossil CH2564</td>
-            <td>195€</td>
+            <td>195â‚¬</td>
             <td>
                 <a href="#" id="trigger">Loe rohkem.</a>
                 <!-- HIDDEN DIV -->
