@@ -10,3 +10,5 @@ if (file_exists("controllers/$page.php")) {
 //Include template
 require "templates/master_template.php";
 
+
+
