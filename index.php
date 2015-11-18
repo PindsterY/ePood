@@ -10,7 +10,7 @@
 <div class="banner">
     <h1>Watches.ee</h1>
 
-    <p>Parim online kellapood eestis!</p>
+    <p class="yleval">Parim online kellapood eestis!</p>
 </div>
 <div class="navbar">
     <ul class="navbar">
@@ -22,7 +22,7 @@
 </div>
 <div class="main">
     <div class="pildike"><img src="assets/img/kell1.jpg" alt="kell" style="width: 100%;px;"></div>
-    <table border="0" style="width:100%; ;">
+    <table border="0" style="width:100%;font-family:arial;">
         <tr>
             <th>Pilt</th>
             <th>Nimi</th>
@@ -48,4 +48,11 @@
 </div>
 
 </body>
+<footer>
+    <div class="jalg">
+        <img class="skype" src="assets/img/skype.png" alt="">
+        <img class="fb" src="assets/img/facebook.png" alt="">
+    <p class="cright">Copyright: VS15, 2015</p>
+    </div>
+</footer>
 </html>

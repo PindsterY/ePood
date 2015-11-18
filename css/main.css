@@ -12,7 +12,7 @@ h1 {
     margin-top: 30px;
 }
 
-p {
+.yleval {
     font-family: inherit;
     text-align: center;
     margin-right: 640px;
@@ -36,11 +36,7 @@ div.main {
 }
 
 div.navbar {
-    display: inline-block;
-    text-align:center;
-    margin-left: 400px;
-    margin-top: -50px;
-    padding: 0;
+    display: none;
 }
 
 ul,li {
@@ -64,4 +60,36 @@ div#pop-up {
     color: #000000;
     border: 1px solid #1a1a1a;
     font-size: 90%;
+}
+td {
+    padding: 50px 0px 50px 0px;
+    background-color: rgba(212, 209, 212, 0.41);
+    text-align:center;
+}
+
+div.jalg {
+    text-align:center;
+    display: block;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1a1a1a;
+    height: 40px;
+}
+.cright {
+    text-align:center;
+    color: rgba(255, 255, 255, 0.35);
+    position:relative;
+    padding-top: 15px;
+    font-family:arial;
+    font-size: 12px;
+}
+.skype {
+    width:40px;
+    float:right;
+}
+.fb{
+    width: 32px;
+    margin-top: 4px;
+    float:right;
 }
