@@ -74,7 +74,7 @@
     div#pop-up {
         display: none;
         position: absolute;
-        width: 280px;
+        width: auto;
         padding: 10px;
         background: #eeeeee;
         color: #000000;
