@@ -84,7 +84,7 @@
 
     td {
         padding: 50px 0px 50px 0px;
-        background-color: rgba(212, 209, 212, 0.41);
+        background-color: rgba(212, 209, 212, 0.30);
         text-align: center;
     }
     /*footer, copyright, logod
@@ -134,6 +134,10 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+tr:hover {
+    background: #f4f4f4;
 }
 /*CSS Väiksemale resole kui 1100*/
 @media screen and (max-width: 1100px) {
