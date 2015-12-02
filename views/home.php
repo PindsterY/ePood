@@ -1,9 +1,7 @@
 <?php
-//connect to the db
-$mysqli = NEW MYSQLi('127.0.0.1', 'root', '', 'kaekellad');
 
 //Query the db
-$resultSet = $mysqli->query("Select * From tooted");
+$resultSet = $con->query("Select * From tooted");
 
 //Count the returned rows
 if ($resultSet->num_rows != 0) {
@@ -21,6 +19,7 @@ if ($resultSet->num_rows != 0) {
 } else {
     echo "No results.";
 }
+
 ?>
 
 <div class="main">
