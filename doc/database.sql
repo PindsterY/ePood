@@ -36,9 +36,8 @@ CREATE TABLE IF NOT EXISTS `tooted` (
   PRIMARY KEY (`toote_ID`)
 )
   ENGINE = InnoDB
- 
   DEFAULT CHARSET = latin1;
- --AUTO_INCREMENT = 2
+
 --
 -- Andmete tõmmistamine tabelile `tooted`
 --
