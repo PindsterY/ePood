@@ -32,8 +32,8 @@ CREATE TABLE IF NOT EXISTS `tooted` (
   `toote_kirjeldus` VARCHAR(255) NOT NULL,
   `toote_hind`      INT(11)      NOT NULL,
   `toote_kogus`     INT(11)      NOT NULL,
-  `toote_pilt`      BLOB         NOT NULL
-  PRIMARY KEY (`toote_ID`);
+  `toote_pilt`      BLOB         NOT NULL,
+  PRIMARY KEY (`toote_ID`)
 )
   ENGINE = InnoDB
   AUTO_INCREMENT = 2
