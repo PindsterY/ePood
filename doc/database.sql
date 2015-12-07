@@ -33,6 +33,7 @@ CREATE TABLE IF NOT EXISTS `tooted` (
   `toote_hind`      INT(11)      NOT NULL,
   `toote_kogus`     INT(11)      NOT NULL,
   `toote_pilt`      BLOB         NOT NULL
+  PRIMARY KEY (`toote_ID`);
 )
   ENGINE = InnoDB
   AUTO_INCREMENT = 2
@@ -65,8 +66,8 @@ INSERT INTO tooted (toote_nimi, toote_kirjeldus, toote_hind, toote_kogus ,toote_
 --
 -- Indeksid tabelile `tooted`
 --
-ALTER TABLE `tooted`
-ADD PRIMARY KEY (`toote_ID`);
+--ALTER TABLE `tooted`
+--ADD PRIMARY KEY (`toote_ID`);
 
 --
 -- AUTO_INCREMENT tõmmistatud tabelitele
