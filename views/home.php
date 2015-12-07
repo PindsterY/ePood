@@ -6,6 +6,7 @@
         <th>Nimi</th>
         <th>Hind (€)</th>
         <th style="width: 40%">Lisainfo</th>
+        <th></th>
     </tr>
 
     <?php require_once "controllers/home.php" ?>

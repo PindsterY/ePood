@@ -24,8 +24,9 @@ if ($resultSet->num_rows != 0) {
                 echo '<div id="" style="width: auto">
                     <h4>'.$toote_nimi.'</h4>
                     <p>'.$toote_kirjeldus.'</p>
-                </div>';
-            echo '</td>';
+                    </div>';
+                echo '</td>';
+        echo '<td style="c"><a href="#">Osta</td>';
         echo '</tr>';
     }
 } else {
