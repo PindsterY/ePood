@@ -5,7 +5,7 @@
         <th>Pilt</th>
         <th>Nimi</th>
         <th>Hind (€)</th>
-        <th>Lisainfo</th>
+        <th style="width: 40%">Lisainfo</th>
     </tr>
 
     <?php require_once "controllers/home.php" ?>
