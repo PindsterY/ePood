@@ -14,7 +14,7 @@
             <th>Lisainfo</th>
         </tr>
 
-<?php require_once "/controllers/home.php"?>
+        <?php require_once "controllers/home.php" ?>
 
     </table>
 </div>
