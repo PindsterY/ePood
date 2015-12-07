@@ -57,7 +57,7 @@ INSERT INTO tooted (toote_nimi, toote_kirjeldus, toote_hind, toote_kogus ,toote_
   ('Diesel Baby Daddy meeste käekell DZ7258', 'Kellele Big Daddy suureks jääb valigu Baby Daddy. Jätkuvalt Bad Ass kell, kuid samas ka stiilne. Hall korpus, pruun nahkrihm on ka praktline, sobib iga riietusega (välja arvatud smokinguga).', 440, 3, ''),
   ('Meeste käekell Calvin Klein Bold K2241104', 'Meeste käekell Calvin Kleinilt. Kellal on must siledast nahast kellarihm, mis on 21 mm lai. Korpus on 10 mm paksune.', 233, 4, ''),
   ('Meeste käekell Calvin Klein City K2G21161', 'Soliidse välimusega meeste Calvin Kleini käekell. Kella roostevabast terasest rihm on 21 mm lai. Korpus on 10 mm paks.', 340, 5, ''),
-  ('Meeste käekell Calvin Klein Classic K4D211G6', 'Meeste käekell Calvin Kleinilt. Kella sihverplaadil on hästiloetavad araabia numbrid. Kellal on tugevdatud mineraalklaas.', 150, 9, '')
+  ('Meeste käekell Calvin Klein Classic K4D211G6', 'Meeste käekell Calvin Kleinilt. Kella sihverplaadil on hästiloetavad araabia numbrid. Kellal on tugevdatud mineraalklaas.', 150, 9, '');
 --
 -- Indeksid tõmmistatud tabelitele
 --
