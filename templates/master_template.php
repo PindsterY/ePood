@@ -24,15 +24,15 @@
     </ul>
 </div>
 
-<?php if (file_exists("views/$page.php")) require "views/$page.php"; else require "views/error.php" ?>
+<div class="main">
+    <?php if (file_exists("views/$page.php")) require "views/$page.php"; else require "views/error.php" ?>
+</div>
 
+<div class="jalg">
+    <img class="skype" src="assets/img/skype.png" alt="">
+    <img class="fb" src="assets/img/facebook.png" alt="">
+
+    <p class="cright">Copyright: VS15, 2015</p>
+</div>
 </body>
-<footer>
-    <div class="jalg">
-        <img class="skype" src="assets/img/skype.png" alt="">
-        <img class="fb" src="assets/img/facebook.png" alt="">
-
-        <p class="cright">Copyright: VS15, 2015</p>
-    </div>
-</footer>
 </html>
