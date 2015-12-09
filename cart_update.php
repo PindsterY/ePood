@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("config.php");
+include_once("connect.php");
 
 //add product to session or create new one
 if(isset($_POST["type"]) && $_POST["type"]=='add' && $_POST["product_qty"]>0)
