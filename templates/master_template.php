@@ -10,7 +10,7 @@
 
 
 <div class="banner">
-    <h1><a href="?">Watches.ee</a></h1>
+    <h1><a id="pealkiri" href="?">Watches.ee</a></h1>
 
     <p class="yleval">Parim online kellapood eestis!</p>
 </div>

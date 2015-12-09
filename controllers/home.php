@@ -26,7 +26,7 @@ if ($resultSet->num_rows != 0) {
                     <p>'.$toote_kirjeldus.'</p>
                     </div>';
                 echo '</td>';
-        echo '<td style="c"><a href="#">Osta</td>';
+        echo '<td style="c"><a id="ostanupp" href="#">Osta</td>';
         echo '</tr>';
     }
 } else {
