@@ -115,7 +115,9 @@ ul.shopping-cart .cart-itm .remove-itm a{
 .cart-view-table-front{
 	font-size: 0.7em;
 	position: fixed;
-	right: 10px;
+	bottom: 10px;
+	right: 3px;
+	float: right;
 	max-width: 350px;
 	font-family: Arial
 }
