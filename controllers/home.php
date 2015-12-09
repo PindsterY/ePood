@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("config2.php");
+include_once("config.php");
 
 
 //current URL of the Page. cart_update.php redirects back to this URL
@@ -63,7 +63,7 @@ if(isset($_SESSION["cart_products"]) && count($_SESSION["cart_products"])>0)
 
 <!-- Products List Start -->
 <?php
-$results = $mysqli->query("SELECT product_code, product_name, product_desc, product_img_name, price FROM products ORDER BY id ASC");
+$results = $con->query("SELECT product_code, product_name, product_desc, product_img_name, price FROM products ORDER BY id ASC");
 if($results){
     $products_item = '<ul class="products">';
 //fetch results set as object and output HTML
