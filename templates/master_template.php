@@ -18,9 +18,9 @@
 <div class="navbar">
     <ul class="navbar">
         <li class="pealeht"><a href="?">Pealeht</a></li>
-        <li class="pealeht"><a href="?page=link2">Link2</a></li>
-        <li class="pealeht"><a href="?page=link3">Link3</a></li>
-        <li class="pealeht"><a href="?page=link4">Link4</a></li>
+        <li class="pealeht"><a href="?page=ostukorv">Ostukorv</a></li>
+        <li class="pealeht"><a href="?page=link3">Kontakt</a></li>
+        <li class="pealeht"><a href="?page=link4">Meist</a></li>
     </ul>
 </div>
 

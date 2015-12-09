@@ -101,12 +101,7 @@ div#pop-up {
 
 
 
-td {
-    padding: 50px 0px 50px 0px;
-    background-color: rgba(212, 209, 212, 0.30);
-    text-align: center;
-    font-family: Arial;
-}
+
 
 /*footer, copyright, logod
 ----------------------------*/
@@ -159,6 +154,3 @@ a:active {
     text-decoration: none;
 }
 
-td:hover {
-    background: #f4f4f4;
-}
