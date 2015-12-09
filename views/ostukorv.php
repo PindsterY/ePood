@@ -71,7 +71,9 @@ include_once("config.php");
             <tr>
                 <td colspan="5"><a href="index.php" class="button">Lisa rohkem tooteid</a>
                     <button type="submit">Uuenda</button>
+                    <button id="maksa" type="submit">Maksa</button>
                 </td>
+
             </tr>
             </tbody>
         </table>

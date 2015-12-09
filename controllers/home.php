@@ -76,20 +76,20 @@ if($results){
 	<div class="product-thumb"><img src="images/{$obj->product_img_name}"></div>
 	<div class="product-desc">{$obj->product_desc}</div>
 	<div class="product-info">
-	Price {$currency}{$obj->price}
+	Hind {$currency}{$obj->price}
 
 	<fieldset>
 
 	<label>
-		<span>Color</span>
+		<span>Värv</span>
 		<select name="product_color">
-		<option value="Black">Black</option>
-		<option value="Silver">Silver</option>
+		<option value="Black">Must</option>
+		<option value="Silver">Hõbe</option>
 		</select>
 	</label>
 
 	<label>
-		<span>Quantity</span>
+		<span>Kogus</span>
 		<input type="text" size="2" maxlength="2" name="product_qty" value="1" />
 	</label>
 
