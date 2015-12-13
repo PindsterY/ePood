@@ -1,6 +1,8 @@
 <?php
 session_start();
 include_once("config.php");
+$currency = "€ ";
+$shipping_cost = 2.80;
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,16 +53,18 @@ include_once("config.php");
                 }
 
                 $grand_total = $total + $shipping_cost; //grand total including shipping cost
-                foreach ($taxes as $key => $value) { //list and calculate all taxes in array
+                /*foreach ($taxes as $key => $value) { //list and calculate all taxes in array
                     $tax_amount = round($total * ($value / 100));
                     $tax_item[$key] = $tax_amount;
                     $grand_total = $grand_total + $tax_amount;  //add tax val to grand total
-                }
+                }*/
+
+                $_SESSION["total_amount"] = $grand_total;
 
                 $list_tax = '';
-                foreach ($tax_item as $key => $value) { //List all taxes
+                /*foreach ($tax_item as $key => $value) { //List all taxes
                     $list_tax .= $key . ' : ' . $currency . sprintf("%01.2f", $value) . '<br />';
-                }
+                }*/
                 $shipping_cost = ($shipping_cost) ? 'Saatmis kulu : ' . $currency . sprintf("%01.2f", $shipping_cost) . '<br />' : '';
             }
             ?>
@@ -71,7 +75,7 @@ include_once("config.php");
             <tr>
                 <td colspan="5"><a href="index.php" class="button">Lisa rohkem tooteid</a>
                     <button type="submit">Uuenda</button>
-                    <button id="maksa" type="submit">Maksa</button>
+                    <button id="maksa" onClick="location.href='?page=payment'" type="button">Maksa</button>
                 </td>
 
             </tr>
@@ -85,3 +89,4 @@ include_once("config.php");
 
 </body>
 </html>
+

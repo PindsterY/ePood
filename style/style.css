@@ -29,7 +29,24 @@ ul.products li {
 #maksa {
 	background-color: #00e600;
 	float:left;
+	min-width: 100px;
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #FFF;
+	min-height: 15px;
+	font: 12px/15px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+	border-radius: 3px;
 }
+
+#maksa:hover {
+	background-color: #65ed7b;
+}
+
 ul.products li h3 {
 	margin: -10px -10px 10px -10px;
 	padding: 10px;
@@ -55,6 +72,8 @@ ul.products li fieldset label span{
 ul.products li fieldset label select{
 	min-width: 100px;
 }
+
+
 
 button, .button{
 	background-color: #39b3d7;
