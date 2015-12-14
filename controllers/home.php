@@ -1,7 +1,7 @@
 <?php
 session_start();
 include_once("config.php");
-
+$currency = "€ ";
 
 //current URL of the Page. cart_update.php redirects back to this URL
 $current_url = urlencode($url="http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
