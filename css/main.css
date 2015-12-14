@@ -10,10 +10,8 @@ p {
 
 h1 {
     font-family: serif;
-    font-size: 50px;
-    text-align: center;
-    margin-right: 700px;
-    margin-top: 30px;
+    text-align:center;
+    padding-top: 50px;
 }
 
 h4 {
@@ -21,15 +19,22 @@ h4 {
 
 }
 
+#pealkiri {
+    font-family: Chiller;
+    font-size: 60px;
+    color:white;
+}
+
 .yleval {
-    font-family: inherit;
-    text-align: center;
-    margin-right: 640px;
+    font-family: Chiller;
+    text-align:center;
     margin-top: -40px;
+    color:grey;
+    font-size: 30px;
 }
 
 div.banner {
-    height: 150px;
+    height: 180px;
     width: 100%;
     padding: 0;
 }
@@ -47,6 +52,7 @@ div.main {
     margin-right: auto;
     width: 1100px;
     height: auto;
+    margin-top: -30px;
     padding-bottom: 50px;
 }
 
@@ -54,7 +60,23 @@ th {
     font-family:Arial;
     padding-top: 10px;
     padding-bottom: 10px;
+}
 
+
+#origlogo {
+    margin-top: 15px;
+    width: 150px;
+    position: absolute;
+    left: 460px;
+}
+
+.pealeht {
+    padding-top: 17px;
+    padding-bottom: 15px;
+    margin-top: -30px;
+}
+.pealeht:hover {
+    background-color: rgba(13, 72, 132, 1);
 }
 
 
