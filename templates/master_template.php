@@ -18,10 +18,18 @@
 
 <div class="navbar">
     <ul class="navbar">
-        <li class="pealeht"><a href="?">Tooted</a></li>
-        <li class="pealeht"><a href="?page=ostukorv">Ostukorv</a></li>
-        <li class="pealeht"><a href="?page=link3">Kontakt</a></li>
-        <li class="pealeht"><a href="?page=link4">Meist</a></li>
+        <a href="?">
+            <li class="pealeht">Tooted</li>
+        </a>
+        <a href="?page=ostukorv">
+            <li class="pealeht">Ostukorv</li>
+        </a>
+        <a href="?page=link3">
+            <li class="pealeht">Kontakt</li>
+        </a>
+        <a href="?page=link4">
+            <li class="pealeht">Meist</li>
+        </a>
     </ul>
 </div>
 
