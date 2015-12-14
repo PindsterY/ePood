@@ -1,8 +1,4 @@
-body{
-	margin: 0px;
-	padding: 0px;
-	font-family: Georgia, "Times New Roman", Times, serif;
-}
+
 h1, h2, h3{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color: black;
@@ -75,6 +71,37 @@ ul.products li fieldset label select{
 
 
 
+.buttonswed{
+	background-color: orange;
+	min-width: 100px;
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #FFF;
+	min-height: 15px;
+	font: 12px/15px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+	border-radius: 3px;
+}
+.buttonseb{
+	background-color: #7fff1b;
+	min-width: 100px;
+	border: none;
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #FFF;
+	min-height: 15px;
+	font: 12px/15px Arial, Helvetica, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+	border-radius: 3px;
+}
+
 button, .button{
 	background-color: #39b3d7;
 	min-width: 100px;
@@ -90,8 +117,14 @@ button, .button{
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
 	border-radius: 3px;
 }
-button:hover, .button:hover{
+.button:hover{
 	background-color: #44C7ED;
+}
+.buttonswed:hover{
+	background-color: #ffb93c;
+}
+.buttonseb:hover{
+	background-color:greenyellow;
 }
 
 .product-thumb{

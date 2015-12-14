@@ -1,7 +1,10 @@
 body {
     padding: 0px;
     margin: 0px;
-    background: linear-gradient(#d4d1d4, #ffffff)
+    background-image: url("../assets/img/whiteabstract.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 p {
@@ -22,7 +25,7 @@ h4 {
 #pealkiri {
     font-family: Chiller;
     font-size: 60px;
-    color:white;
+    color: #393939;
 }
 
 .yleval {
@@ -71,8 +74,8 @@ th {
 }
 
 .pealeht {
-    padding-top: 17px;
-    padding-bottom: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     margin-top: -30px;
 }
 .pealeht:hover {
@@ -136,6 +139,7 @@ div.jalg {
     margin-right: auto;
     background-color: #1a1a1a;
     height: 40px;
+    margin-top: -11px;
 }
 
 .cright {
