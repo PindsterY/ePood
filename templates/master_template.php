@@ -12,7 +12,7 @@
 <a href="index.php">
 
 <div class="banner">
-    <img id="origlogo" src="assets/img/origwatch22.png" alt="">
+    <img href="index.php" id="origlogo" src="assets/img/origwatch22.png" alt="">
     <h1><a id="pealkiri">Watches.ee</a></h1>
     <p class="yleval">Parim online kellapood eestis!</p>
 </div>
