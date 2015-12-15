@@ -1,3 +1,5 @@
+@media screen and (min-width: 728px) {
+
 body {
     padding: 0px;
     margin: 0px;
@@ -23,17 +25,17 @@ h4 {
 }
 
 #pealkiri {
-    font-family: Chiller;
-    font-size: 60px;
+    font-family: "Century Gothic";
+    font-size: 52px;
     color: #393939;
 }
 
 .yleval {
-    font-family: Chiller;
+    font-family: center;
     text-align:center;
-    margin-top: -40px;
+    margin-top: -30px;
     color:grey;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 div.banner {
@@ -67,10 +69,11 @@ th {
 
 
 #origlogo {
-    margin-top: 15px;
     width: 150px;
-    position: absolute;
-    left: 460px;
+    position:absolute;
+    margin-top: -180px;
+    margin-left: -500px;
+
 }
 
 .pealeht {
@@ -180,4 +183,10 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+}
 
+@media screen and (max-width: 728px) {
+    #origlogo {
+        width: 150px;
+    }
+}

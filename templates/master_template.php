@@ -10,7 +10,7 @@
 </head>
 <body>
 <a href="index.php">
-<img id="origlogo" src="assets/img/origwatch22.png" alt="">
+
 <div class="banner">
     <h1><a id="pealkiri">Watches.ee</a></h1>
     <p class="yleval">Parim online kellapood eestis!</p>
@@ -26,6 +26,7 @@
 </div>
 
 <div class="main">
+    <img id="origlogo" src="assets/img/origwatch22.png" alt="">
     <?php if (file_exists("views/$page.php")) require "views/$page.php"; else require "views/error.php" ?>
 </div>
 
