@@ -46,7 +46,7 @@ if(isset($_SESSION["cart_products"]) && count($_SESSION["cart_products"])>0)
         $total = ($total + $subtotal);
     }
     echo '<td colspan="4">';
-    echo '<button type="submit">Uuenda</button><a href="?page=ostukorv" class="button">Osta kohe</a>';
+    echo '<button type="submit">Uuenda</button><a href="?page=payment" class="button">Osta kohe</a>';
     echo '</td>';
     echo '</tbody>';
     echo '</table>';
