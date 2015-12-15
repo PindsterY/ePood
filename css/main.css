@@ -186,6 +186,14 @@ a:active {
 }
 
 @media screen and (max-width: 728px) {
+    .fb {
+        width: 30px;
+        float:right;
+    }
+    .skype {
+        float:right;
+        width: 30px;
+    }
     #origlogo {
         width: 150px;
     }
