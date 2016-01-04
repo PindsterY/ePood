@@ -40,13 +40,13 @@ CREATE TABLE IF NOT EXISTS `products` (
 --
 
 INSERT INTO `products` (`id`, `product_code`, `product_name`, `product_desc`, `product_img_name`, `price`) VALUES
-(4, 'PD1004', 'Wrist Watch GE2', 'Memalukan akan terselit didalam di tengah tengah kandungan text. Semua injin Lorem Ipsum didalam Internet hanya mengulangi text, sekaligus menjadikan injin kami sebagai yang terunggul dan tepat sekali di Internet.', 'wrist-watch.jpg', '400.30'),
-(6, 'PD1005', 'Wrist Watch GE2', 'Memalukan akan terselit didalam di tengah tengah kandungan text. Semua injin Lorem Ipsum didalam Internet hanya mengulangi text, sekaligus menjadikan injin kami sebagai yang terunggul dan tepat sekali di Internet.', 'wrist-watch.jpg', '400.30'),
-(7, 'PD1003', 'Wrist watch Elite', 'Mugav ja odav!', 'wrist-watch.jpg', '23.99'),
-(8, 'PD1002', 'Wrist watch Elite', 'Mugav ja odav!', 'wrist-watch.jpg', '59.99'),
-(9, 'PD1001', 'Wrist watch Elite', 'Mugav ja odav!', 'wrist-watch.jpg', '59.99'),
-(10, 'PD1008', 'Wrist watch Elite', 'Mugav ja odav!', 'wrist-watch.jpg', '59.99'),
-(11, 'PD1009', 'Wrist watch Elite', 'Mugav ja odav!', 'wrist-watch.jpg', '129.00');
+(4, 'PD1004', 'Calvin Klein Classic K4D211G6', 'Meeste käekell Calvin Kleinilt. Kella sihverplaadil on hästiloetavad araabia numbrid. Kellal on tugevdatud mineraalklaas.', 'Calvin Klein Classic K4D211G6.jpg', '400.30'),
+(6, 'PD1005', 'Calvin Klein City K2G21161', 'Soliidse välimusega meeste Calvin Kleini käekell. Kella roostevabast terasest rihm on 21 mm lai. Korpus on 10 mm paks.', 'Calvin Klein City K2G21161.jpg', '400.30'),
+(7, 'PD1003', 'Calvin Klein Bold K2241104', 'Meeste käekell Calvin Kleinilt. Kellal on must siledast nahast kellarihm, mis on 21 mm lai. Korpus on 10 mm paksune.', 'Calvin Klein Bold K2241104.jpg', '23.99'),
+(8, 'PD1002', 'Diesel Baby Daddy DZ7258', 'Kellele Big Daddy suureks jääb valigu Baby Daddy. Jätkuvalt Bad Ass kell, kuid samas ka stiilne. Hall korpus, pruun nahkrihm on ka praktline, sobib iga riietusega (välja arvatud smokinguga).', 'Diesel Baby Daddy DZ7258.jpg', '59.99'),
+(9, 'PD1001', 'Diesel Megatron DZ4246', 'Helesinise sihverplaadi, kuu- ja nädalapäeva näiduga ning pruuni värvi naturaalsest nahast rihmaga käekell. Tõeliselt SUUR kell.', 'Diesel Megatron DZ4246.jpg', '59.99'),
+(10, 'PD1008', 'Diesel DZ1295', 'Eriline disain, suur veekindlus ning kaitstud kroonnupp teevad sellest omanäolise, kuid töökindla ja vastupidava käekella.', 'Diesel DZ1295.jpg', '59.99'),
+(11, 'PD1009', 'Emporio Armani AR2432', 'Meeste käekell Emporio Armanilt. See kronograaf-kell ei jää Su randmel märkamatuks. Reljeefse musta värvi kellarihma laius on 21mm. Kellal on kvaliteetne Quartz mehhanism ning tugevdatud mineraalklaas.', 'Emporio Armani AR2432.jpg', '129.00');
 
 --
 -- Indeksid tõmmistatud tabelitele
