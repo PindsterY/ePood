@@ -73,7 +73,7 @@ if($results){
 	<li class="product">
 	<form method="post" action="cart_update.php">
 	<div class="product-content"><h3>{$obj->product_name}</h3>
-	<div class="product-thumb"><img src="images/{$obj->product_img_name}"></div>
+	<div class="product-thumb"><img width="100" height="100" src="images/{$obj->product_img_name}"></div>
 	<div class="product-desc">{$obj->product_desc}</div>
 	<div class="product-info">
 	Hind {$currency}{$obj->price}
