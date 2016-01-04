@@ -192,14 +192,66 @@ a:active {
 
 @media screen and (max-width: 728px) {
     .fb {
-        width: 30px;
+        width: 35px;
         float:right;
     }
     .skype {
         float:right;
-        width: 30px;
+        width: 40px;
     }
     #origlogo {
-        width: 150px;
+        width: 250px;
+    }
+    body {
+        background:linear-gradient(white,#f3f3f3);
+    }
+    .navbar {
+        display:block;
+        font-family: arial;
+    }
+
+    .pildike {
+         display:none;
+    }
+    .pealeht {
+        color:white;
+        text-decoration: none;
+        padding: 5px 5px 5px 5px;
+        position: relative;
+        display:inline-block;
+        background-color:dodgerblue;
+        border-radius: 5px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    #pealkiri {
+        font-family: arial;
+    }
+    .yleval {
+        font-family: arial;
+    }
+
+    li a {
+        display: inline-block;
+    }
+a:link {
+    text-decoration:none;
+}
+    .jalg {
+        display: block;
+        background-color:#1a1a1a;
+        height: 40px;
+        width: 100%;
+        color:grey;
+        text-align:center;
+        padding-top: 1px;
+        font-family:arial;
+        font-size:12px;
+    }
+    #tabel {
+        display:block;
     }
 }

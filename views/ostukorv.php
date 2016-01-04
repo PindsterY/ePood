@@ -65,7 +65,7 @@ $shipping_cost = 2.80;
                 /*foreach ($tax_item as $key => $value) { //List all taxes
                     $list_tax .= $key . ' : ' . $currency . sprintf("%01.2f", $value) . '<br />';
                 }*/
-                $shipping_cost = ($shipping_cost) ? 'Saatmis kulu : ' . $currency . sprintf("%01.2f", $shipping_cost) . '<br />' : '';
+                $shipping_cost = ($shipping_cost) ? 'Saatmiskulu : ' . $currency . sprintf("%01.2f", $shipping_cost) . '<br />' : '';
             }
             ?>
             <tr>
